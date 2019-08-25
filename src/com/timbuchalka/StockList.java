@@ -6,6 +6,8 @@ import java.util.Map;
 
 /**
  * SortedCollections
+ * sdfsdfsj
+ * 
  * 
  * StockList.java
  * 
@@ -19,6 +21,9 @@ public class StockList {
 
     public StockList() {
         this.list = new LinkedHashMap<>();
+    }
+    public void myMethod() {
+    	System.out.print("Inside My Method");
     }
 
     public int addStock(StockItem item) {
